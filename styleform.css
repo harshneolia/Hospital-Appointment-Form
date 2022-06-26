@@ -22,3 +22,27 @@ h1{
     font-weight: 100%;
     font-size: none;
 }
+input[type="text"],
+input[type="time"],input[type="month"]{
+    width: 66%;
+    padding:13px;
+    border:1px solid #5a9e7c;
+    margin-top: 30px;
+    margin-left:80px;
+    border-radius: 3px;
+}
+fieldset{
+    background-color:white;
+}
+p{
+    padding-left: 4%;
+}
+select{
+    margin-left: 45px;
+    width: 66%;
+    padding:13px;
+    border:1px solid #5a9e7c;
+    margin-top: 30px;
+    border-radius: 3px;
+    margin-left: 100px; /* hindi translate-isme yeh hua gender box ke left aur chle gya as Gender chota word tha isliye left mai gussa tha uska answer box isliye extra margin lgayi left mai*/
+}
